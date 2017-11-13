@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from backend import *
+#from backend import *
 import cgi, cgitb
 
 print ("Content-Type: text/html;charset=utf-8\r\n\r\n") 
@@ -21,11 +21,6 @@ for f in range(0, 4):
 	        daemon2.append(["maq"+ str(f) + "_" + fields[i], value])	
 	    elif(f == 3):
 		daemon3.append(["maq"+ str(f) + "_" + fields[i], value])  
-
-
-
-
-
 
 print "<h1>Solicitacoes</h1>"
 print "<h4> Maquina 1 </h4>"
